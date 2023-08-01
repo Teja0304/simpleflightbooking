@@ -1,0 +1,210 @@
+header {
+  background-color: #1f3646;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+	
+	font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li img{
+	width: 60%;
+}
+
+footer{
+	background-color: #1f3646;
+    padding: 60px 0px;
+    
+}
+
+footer nav ul li img{
+	width: 100%
+}
+
+
+.formbox{
+	width:70%;
+	height:20%;
+	max-width:400PX;
+	position: absolute;
+	top: 40%;
+	left:34%;
+	background: rgba(255,255,255,0.5);
+	padding: 30px 30px 50px; 
+	margin-left: 0px;
+}
+
+.formbox h4{
+	font-size: 29px;
+	margin-top: -10px;
+	color: #2f2f2f ;
+	border-bottom: 2px solid;
+	width:295px;
+}
+
+.book-flight{
+	font-size:10px;
+	margin-top: -20px;
+}
+
+.book-flight label{
+	font-size:25px;
+}
+
+.book-flight select{
+	font-size:15px;
+}
+
+.button button{
+	margin-top:10px;
+	background: #2f2f2f;
+	color: #fff;
+	width:120px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+
+ 
+section img{
+	font-size: 50px;
+	color: black;
+	}
+
+section h1{
+	font-size: 50px;
+	color: black;
+	
+	}
+
+section img{
+	width:15%;
+	
+}
+
+.formbox1{
+	background: rgba(255,255,255,0.5); 
+}
+
+section center img{
+	width: 70%;
+	margin-top: 60px;
+}
+
+section .abc h1{
+	margin-right:550px;
+	margin-top:-290px;
+}
+
+
+.meal{
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.meal h1{
+	font-size: 50px;
+}
+
+.meal .img{
+	margin-left: 120px;
+}
+
+
+.meal .img2{
+	margin-left: 100px;
+
+}
+
+.meal #food{
+	margin-left: 230px;
+}
+
+.meal #breakfast{
+	margin-left: 580px;
+	margin-top: -50px
+}
+
+.meal #drink{
+	margin-left: 950px;
+	margin-top: -50px
+}
+
+.book .flightinfo{
+	width: 80%;
+	font-size: 40px;
+	background: rgba(255,255,255,0.5);
+}
+
+.book h2{
+  margin-left: 135px;
+  font-size: 30px;	
+}
+
+.flightinfo a{
+	background: #1f3646;
+	color: #fff;
+	font-size: 30px;
+}
+
+.location{
+	background-image: url("image-1366x768 (4).jpg");
+}
+
+.place .delhi{
+	margin-left: 90px;
+	margin-bottom:20px;
+	width: 20%;
+}
+
+.place .kolkata{
+	margin-left: 20px;
+	margin-bottom:20px;
+	width: 20%;
+}
+
+.place .mumbai{
+	margin-left: 20px;
+	margin-bottom:20px;
+	width: 20%;
+}
+
+.place .bangalore1{
+	margin-left: 20px;
+	margin-bottom:20px;
+	width: 20%;
+}
+
+.place #d1{
+	margin-left: 180px;
+	margin-top: 0px
+}
+
+.place #k1{
+	margin-left: 460px;
+	margin-top: -48px
+}
+
+.place #m1{
+	margin-left: 750px;
+	margin-top: -46px
+}
+
+.place #b1{
+	margin-left: 1030px;
+	margin-top: -48px
+}
