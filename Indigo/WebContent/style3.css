@@ -1,0 +1,205 @@
+header {
+  background-color: #1f3646;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+	
+	font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li img{
+	width: 60%;
+}
+
+footer{
+	background-color: #1f3646;
+    padding: 60px 0px;
+    
+}
+
+footer nav ul li img{
+	width: 100%
+}
+
+body{
+	background-image: url("image (3).jpg");
+}
+
+.form-box{
+	margin-top: 30px;
+}
+
+#form{
+	background-color: #000;
+	height: 550px;
+	width: 700px;
+	margin: auto;
+	padding: 20px;
+	opacity:0.7;
+}
+
+
+#form h3{
+	border-bottom: 2px solid #4f4f4f;
+	width: 215px;
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+.h1{
+	text-align: center;
+}
+
+::placeholder{
+	color: white;
+}
+
+::label{
+	color: white;
+}
+
+#tofrom #tofrom-group{
+	width: 300px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#tofrom2 #tofrom-group{
+	width:187px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#tofrom3 #tofrom-group{
+	width:637px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#person #info{
+	width:300px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#person #info2{
+	width:638px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#person #info3{
+	width:300px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+
+#btn #button{
+	background: #2f2f2f;
+	color: #fff;
+	width:90px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin-left: 400px;
+}
+
+#btn #button{
+	background: #2f2f2f;
+	color: black;
+	width:90px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin-left: 480px;
+	background-color: yellow;
+	
+}
+
+#btn #button1{
+	background: #2f2f2f;
+	color: black;
+	width:90px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin-left: 580px;
+	margin-top: -40px;
+	background-color: #167ac6;
+}
+
+#result {
+      color: red;
+    }
+    
+.date label{
+	color: white;
+	margin-left: 30px;
+}
+
+#tofrom .date #tofrom-group{
+	width: 189px;
+	margin: 5px;
+	border-top-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	outline: none;
+	background: transparent;
+	color: white;
+	margin-left: 30px;
+}
+

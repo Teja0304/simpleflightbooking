@@ -1,0 +1,86 @@
+header {
+  background-color: #1f3646;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+	
+	font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li img{
+	margin-top:2px;
+	width: 60%;
+}
+footer{
+	background-color: #1f3646;
+    padding: 60px 0px;
+    
+}
+
+footer nav li img{
+	margin-top:10px;
+	width: 110%
+}
+
+img{
+	margin-top:-20px;
+	width: 50%
+}
+
+section{
+	margin-left: 200px;
+	margin-right: 100px;
+}
+
+section h2{
+	font-size: 30px;
+}
+
+.photo img{
+ width: 80%;
+ margin-right: 200px;
+ }
+ 
+.food img{
+	margin-top:10px;
+	width: 20%
+}
+
+.food h4{
+	margin-top: 10px;
+}
+
+.food h3{
+	margin-top: -15px;
+}
+
+.food .paneer{
+	margin-left: 250px;
+	margin-top: -345px;
+	width: 100%;
+}
+
+.food .cake{
+	margin-left: 500px;
+	margin-top: -345px;
+	width: 100%;
+}
+
+.Cookies{
+	margin-left: 750px;
+	margin-top: -345px;
+	width: 100%;
+}

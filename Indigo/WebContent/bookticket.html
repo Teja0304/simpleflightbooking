@@ -1,0 +1,132 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style3.css">
+<script src="signup.js" type="text/javascript"></script>
+</head>
+<body>
+  <header>
+         <nav>
+         	<ul>
+         	    <li><img alt="" src="logo.png"> </li>
+         		<li><a href="index.html">Home</a></li>
+         		<li><a href="aboutus.html">About Us</a></li>
+         		<li><a href="bookticket.html">Book Ticket</a></li>
+         		<li><a href="contact.html">Contact</a></li>
+         		<li><a href="signup.html">Sign up/Login</a></li>
+         	</ul>
+         </nav>
+        </header> 
+        
+   <div class="contain" >
+     <form class="formbox" action="" name="form" onsubmit="return book()" >
+       <h1 class="h1">Flight Booking Form</h1>
+         <div id="form">
+           <h3 class="white">Booking Details:</h3>
+           
+           <div id="tofrom">
+             <select name="from" id=tofrom-group style="background: black;">
+               <option value="">FROM</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Bangalore">Bangalore</option>
+             </select >
+
+                <select name="to" id=tofrom-group style="background: black;">
+                 <option value="">TO</option>
+                <option value="Goa">Goa</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Bangalore">Bangalore</option>
+                </select>
+                
+                <select name="seat" id=tofrom-group style="background: black;">
+                   <option value="">Preffered Seating</option>
+                   <option value="">Economy Class</option>
+                   <option value="">Business Class</option>
+                   <option value="">First Class</option>
+                </select>
+                
+                <input type="number" id=tofrom-group placeholder="Number of Tickets" autofocus="autofocus" required="required" > 
+               <div class="date">
+                <label>Travel Date:</label>
+                <input type="date" id=tofrom-group placeholder="Travel Date" autofocus="autofocus" required="required">
+                </div>
+                        
+            </div> 
+            
+            <div id=tofrom2>
+               <input type="number" id=tofrom-group placeholder="Adult(above 15 years)" autofocus="autofocus" required="required">
+               <input type="number" id=tofrom-group placeholder="children(3 to 15 years)">
+               <input type="number" id=tofrom-group placeholder="infant(below 3 years)">  
+            </div> 
+            
+            <div id="tofrom">
+            <select name="meal" id=tofrom-group style="background: black;">
+                   <option value="">Meals</option>
+                   <option value="">No Meal</option>
+                   <option value="">A1 meal(veg)</option>
+                   <option value="">A2 meal(non-veg)</option>
+                   <option value="">Children meal</option>
+                   <option value="">Fast food</option>
+                </select>
+            </div> 
+            
+            <div id=tofrom3>
+               <input type="text" id=tofrom-group placeholder="Any message...." > 
+            </div>    
+            
+             <h3 class="white">Personal Info:</h3>
+             <div id=person>
+               <input type="text" id=info placeholder="Full Name" autofocus="autofocus" required="required">
+               <input type="number" id=info placeholder="Phone Number" autofocus="autofocus" required="required" min="7000000000" max="9999999999">  
+               <input type="email" id=info2 placeholder="Email" autofocus="autofocus" required="required">
+               
+                <select name="payment" id=info3 style="background: black;">
+                   <option value="">Payment Mode</option>
+                   <option value="">Credit Card</option>
+                   <option value="">Debit Card</option>
+                   <option value="">UPI</option>
+                   <option value="">E-Wallet</option>
+                </select>
+                <div id="result"></div>
+              </div> 
+              
+             <div id=btn>
+                <input type="submit" id="button" value="Submit Form">
+             
+                <button type="reset" id="button1">Clear Form</button>
+                
+                <button onclick="pg()">Print Form</button>
+             </div>  
+                
+              
+                  
+         </div>
+     </form>
+   </div>  
+   
+   <footer>
+               <nav>
+               	<a href="index.html"><center><input type="submit" value="Back to home"></center></a>
+            <ul>
+              <li><a href="https://www.facebook.com/tooplate"><img src="Screenshot (21).png"></a></li>
+              <li><a href="https://twitter.com"><img src="Screenshot (22).png"></a></li>
+              <li><a href="https://in.linkedin.com"><img src="Screenshot (23).png"></a></li>
+            </ul>
+               </nav> 
+                <center><p>&copy; 2023 Indigo Website. All rights reserved.</p></center>      
+    </footer> 
+       
+       
+       <script type="text/javascript">
+          function pg(){
+              window.print();
+          }
+       </script>                
+</body>
+</html> 

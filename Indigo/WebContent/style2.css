@@ -1,0 +1,111 @@
+.form-box{
+	width:50%;
+	max-width: 350PX;
+	position: absolute;
+	top: 10%;
+	left:30%;
+	background: rgba(255,255,255,0.5);
+	padding: 50px 60px 70px;
+	text-align: center;
+	height: 450px;
+}
+
+.form-box1{
+	width:50%;
+	height:60%;
+	max-width: 350PX;
+	position: absolute;
+	top: 15%;
+	left:30%;
+	background: rgba(255,255,255,0.5);
+	padding: 50px 60px 70px;
+	text-align: center;
+}
+
+.form-box h1{
+	font-size: 30px;
+	margin-bottom: 40px;
+	color: #2f2f2f ;
+}
+
+.form-box1 h1{
+	font-size: 30px;
+	margin-bottom: 60px;
+	color: #2f2f2f ;
+}
+
+.input-field{
+	background: #2f2f2f;
+	margin: 15px 0;
+	display: flex;
+	align-items:center;
+
+}
+
+.input-field i{
+	margin-left: 15px;
+	color: #999;
+}
+
+input{
+	widows: 100%;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	padding: 18px 15px;
+}
+
+
+.btn-field button{
+	background: #2f2f2f;
+	color: #fff;
+	width:80px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin-top: 90px;
+}
+
+.btn-field1 button{
+	background: #2f2f2f;
+	color: #fff;
+	width:80px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin-top: 50px;
+	margin-top: -2px;
+}
+
+
+.input-group{
+	height: 230px;
+}
+
+.input-group1{
+	height: 160px;
+}
+
+.btn-field button.disable{
+	background: #eaeaea;
+	color: #555;
+}
+
+form p{
+	text-align: left;
+	font-size: 18px;
+}
+
+#result {
+      color: red;
+    }
+    
+.abc {
+	color: white;
+}    
+
+.result{
+	color: red;
+}
